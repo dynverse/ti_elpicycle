@@ -1,5 +1,6 @@
 id: elpicycle
 docker_repository: dynverse/ti_elpicycle
+singularity_collection: 1542
 container_url: https://github.com/dynverse/ti_elpicycle
 name: ElPiGraph cycle
 type: algorithm
