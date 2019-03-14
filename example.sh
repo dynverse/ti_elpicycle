@@ -3,7 +3,7 @@
 # generate dataset with certain seed
 set.seed(1)
 data <- dyntoy::generate_dataset(
-  id = "specific_example/template",
+  id = "specific_example/elpicycle",
   num_cells = 99,
   num_features = 101,
   model = "cyclic",
@@ -15,7 +15,6 @@ data$params <- list(
   NumNodes = 20L,
   MaxNumberOfIterations = 3
 )
-
 data$seed <- 1
 
 # write example dataset to file

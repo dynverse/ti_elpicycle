@@ -22,11 +22,10 @@ container:
   docker: dynverse/ti_elpicycle
 
 wrapper:
-  type:
+  type: trajectory
   topology_inference: fixed
   trajectory_types:
   - cyclic
-  example:
   input_required:
   - expression
 
