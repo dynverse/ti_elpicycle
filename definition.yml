@@ -25,7 +25,7 @@ wrapper:
   type: trajectory
   topology_inference: fixed
   trajectory_types:
-  - cyclic
+  - cycle
   input_required:
   - expression
 
